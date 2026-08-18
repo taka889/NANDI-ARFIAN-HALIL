@@ -1,0 +1,506 @@
+index.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandi Arfian Halil</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0b0b;
+      color: #f2f2f2;
+      line-height: 1.7;
+    }
+
+    header {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+      background:
+        radial-gradient(circle at top, #2a210e 0%, #0b0b0b 55%);
+    }
+
+    .hero {
+      max-width: 850px;
+    }
+
+    .initial {
+      width: 95px;
+      height: 95px;
+      margin: 0 auto 25px;
+      border: 2px solid #d4af37;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #d4af37;
+      font-size: 34px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .tagline {
+      color: #d4af37;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      color: #cfcfcf;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(15, 15, 15, 0.97);
+      border-bottom: 1px solid #3c3015;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 17px 15px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #d4af37;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    section {
+      max-width: 950px;
+      margin: auto;
+      padding: 75px 25px;
+    }
+
+    .section-title {
+      color: #d4af37;
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    .section-line {
+      width: 65px;
+      height: 3px;
+      background: #d4af37;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: #151515;
+      border: 1px solid #332912;
+      border-radius: 15px;
+      padding: 30px;
+      margin-top: 20px;
+    }
+
+    .card h3 {
+      color: #d4af37;
+      margin-bottom: 12px;
+      font-size: 21px;
+    }
+
+    .card p {
+      color: #d2d2d2;
+      margin-bottom: 12px;
+    }
+
+    .role {
+      color: #aaa;
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+
+    .highlight {
+      border-left: 3px solid #d4af37;
+      padding-left: 20px;
+      margin-top: 20px;
+    }
+
+    ul {
+      padding-left: 22px;
+      color: #d2d2d2;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .grandfather {
+      background: linear-gradient(135deg, #17130a, #111111);
+      border: 1px solid #5a4618;
+    }
+
+    .name {
+      font-size: 26px;
+      color: #d4af37;
+      margin-bottom: 8px;
+    }
+
+    .quote {
+      font-size: 18px;
+      color: #e3e3e3;
+      font-style: italic;
+      margin-top: 25px;
+    }
+
+    .contact-box {
+      text-align: center;
+      background: #151515;
+      border: 1px solid #332912;
+      border-radius: 15px;
+      padding: 35px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      border-top: 1px solid #292929;
+      color: #888;
+      font-size: 14px;
+    }
+
+    footer strong {
+      color: #d4af37;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 35px;
+      }
+
+      .tagline {
+        font-size: 17px;
+      }
+
+      nav {
+        gap: 15px;
+      }
+
+      section {
+        padding: 55px 18px;
+      }
+
+      .card {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- BERANDA -->
+  <header id="beranda">
+    <div class="hero">
+
+      <div class="initial">NA</div>
+
+      <h1>Nandi Arfian Halil</h1>
+
+      <p class="tagline">
+        Seni Pertunjukan • Budaya • Karya
+      </p>
+
+      <p class="intro">
+        Selamat datang di ruang digital Nandi Arfian Halil.
+        Website ini menjadi tempat untuk berbagi perjalanan,
+        pengalaman seni pertunjukan, karya, serta cerita tentang
+        warisan budaya yang memiliki arti penting dalam kehidupan.
+      </p>
+
+    </div>
+  </header>
+
+
+  <!-- NAVIGASI -->
+  <nav>
+    <a href="#tentang">Tentang Saya</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#karya">Karya</a>
+    <a href="#kakek">Tentang Kakek</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+
+  <!-- TENTANG SAYA -->
+  <section id="tentang">
+
+    <h2 class="section-title">Tentang Saya</h2>
+    <div class="section-line"></div>
+
+    <div class="card">
+
+      <h3>Nandi Arfian Halil</h3>
+
+      <p>
+        Saya adalah Nandi Arfian Halil, seseorang yang memiliki
+        ketertarikan pada seni pertunjukan, kebudayaan, serta
+        berbagai bentuk karya yang berkaitan dengan kehidupan
+        masyarakat dan tradisi.
+      </p>
+
+      <p>
+        Bagi saya, seni bukan hanya tentang sebuah pertunjukan.
+        Seni merupakan ruang untuk belajar, menyampaikan gagasan,
+        mengenal diri sendiri, sekaligus memahami lingkungan dan
+        kebudayaan di sekitar.
+      </p>
+
+      <p>
+        Website ini saya buat sebagai ruang sederhana untuk
+        mendokumentasikan perjalanan, pengalaman, karya, dan
+        hal-hal yang memiliki makna dalam perjalanan hidup saya.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- PENGALAMAN SENI -->
+  <section id="pengalaman">
+
+    <h2 class="section-title">Pengalaman Seni Pertunjukan</h2>
+    <div class="section-line"></div>
+
+    <div class="card">
+
+      <h3>Pinangan</h3>
+
+      <p class="role">
+        Peran: Pak Rukmana
+      </p>
+
+      <p>
+        Salah satu pengalaman saya dalam seni pertunjukan adalah
+        terlibat dalam pementasan <strong>Pinangan</strong> sebagai
+        tokoh <strong>Pak Rukmana</strong>.
+      </p>
+
+      <p>
+        Pengalaman tersebut menjadi bagian dari proses belajar
+        saya dalam memahami karakter, membangun peran, serta
+        menyampaikan cerita melalui seni pertunjukan.
+      </p>
+
+    </div>
+
+
+    <div class="card">
+
+      <h3>Tuhan Tolong Bunuh Emak</h3>
+
+      <p class="role">
+        Peran: Jaul
+      </p>
+
+      <p>
+        Saya juga pernah terlibat dalam pementasan
+        <strong>Tuhan Tolong Bunuh Emak</strong> dengan memerankan
+        tokoh <strong>Jaul</strong>.
+      </p>
+
+      <p>
+        Pementasan ini menjadi pengalaman lain yang memperkaya
+        perjalanan saya dalam dunia seni pertunjukan, terutama
+        dalam proses memahami karakter dan menyampaikan emosi
+        melalui sebuah cerita.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- KARYA -->
+  <section id="karya">
+
+    <h2 class="section-title">Karya dan Perjalanan</h2>
+    <div class="section-line"></div>
+
+    <div class="card">
+
+      <h3>Seni dan Kebudayaan</h3>
+
+      <p>
+        Perjalanan saya tidak terlepas dari ketertarikan terhadap
+        seni dan kebudayaan. Setiap karya dan pengalaman menjadi
+        bagian dari proses untuk terus belajar dan berkembang.
+      </p>
+
+      <p>
+        Saya percaya bahwa karya memiliki kemampuan untuk
+        menyimpan cerita, mempertemukan manusia dengan pengalaman,
+        dan membantu menjaga ingatan terhadap kebudayaan.
+      </p>
+
+      <div class="highlight">
+
+        <p>
+          Ruang ini akan terus dikembangkan untuk mendokumentasikan
+          karya, pementasan, tulisan, penelitian, dan berbagai
+          pengalaman lainnya.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- TENTANG KAKEK -->
+  <section id="kakek">
+
+    <h2 class="section-title">Tentang Kakek</h2>
+    <div class="section-line"></div>
+
+    <div class="card grandfather">
+
+      <div class="name">
+        H. Mustirin
+      </div>
+
+      <p>
+        <strong>
+          Haji Mustirin alias Haji Nurhayat Muhsinin,
+          atau Amaq Mustirin
+        </strong>
+      </p>
+
+      <p>
+        Bagian ini saya dedikasikan untuk mengenang kakek saya,
+        H. Mustirin, yang memiliki keterlibatan dalam
+        dokumentasi dan pelestarian sastra serta sejarah
+        masyarakat Sasak.
+      </p>
+
+      <p>
+        Nama beliau tercatat sebagai salah satu pihak yang
+        terlibat dalam proses transliterasi naskah
+        <strong>Sastra Sasak Dewi Rengganis</strong>,
+        bersama L. G. Suparman dan Slamet Riyadi Ali.
+      </p>
+
+      <p>
+        H. Mustirin juga tercatat sebagai transliterator
+        <strong>Babad Gandor</strong>, sebuah naskah yang
+        digunakan sebagai salah satu rujukan dalam penelitian
+        sejarah mengenai <strong>Pemberontakan Gandor tahun 1895</strong>.
+      </p>
+
+      <p>
+        Selain itu, beliau juga dikenal sebagai narasumber dalam
+        penulisan sejarah Desa Teros. Keterangan dan pengetahuan
+        yang dimiliki menjadi bagian dari upaya menjaga ingatan
+        sejarah dan kebudayaan masyarakat.
+      </p>
+
+      <p class="quote">
+        "Warisan bukan hanya sesuatu yang ditinggalkan,
+        tetapi juga sesuatu yang terus diceritakan,
+        dipelajari, dan dijaga."
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- WARISAN -->
+  <section>
+
+    <h2 class="section-title">Warisan dan Inspirasi</h2>
+    <div class="section-line"></div>
+
+    <div class="card">
+
+      <p>
+        Kehadiran H. Mustirin dalam perjalanan sejarah dan
+        kebudayaan menjadi salah satu bagian yang menginspirasi
+        saya untuk terus menghargai seni, tradisi, dan cerita
+        yang diwariskan dari generasi sebelumnya.
+      </p>
+
+      <p>
+        Bagi saya, mengenang beliau bukan hanya tentang mengingat
+        sosok seorang kakek, tetapi juga tentang menjaga cerita
+        dan nilai yang pernah beliau tinggalkan.
+      </p>
+
+      <p>
+        Website ini menjadi salah satu ruang kecil untuk
+        menyimpan cerita tersebut agar dapat terus dikenang.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- KONTAK -->
+  <section id="kontak">
+
+    <h2 class="section-title">Kontak</h2>
+    <div class="section-line"></div>
+
+    <div class="contact-box">
+
+      <p>
+        Bagian kontak akan dikembangkan kemudian.
+      </p>
+
+      <p>
+        Untuk sementara, website ini berfokus pada profil,
+        perjalanan seni, karya, serta dokumentasi keluarga
+        dan kebudayaan.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      © 2026 <strong>Nandi Arfian Halil</strong>
+    </p>
+
+    <p>
+      Seni • Karya • Budaya • Warisan
+    </p>
+
+  </footer>
+
+</body>
+</html>
